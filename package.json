@@ -1,0 +1,21 @@
+{
+    "name": "db-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "sudo systemctl enable db-api && sudo systemctl start db-api",
+        "stop": "sudo systemctl disable db-api && sudo systemctl stop db-api"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "sqlite3": "^5.1.6"
+    },
+    "type": "module",
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}
